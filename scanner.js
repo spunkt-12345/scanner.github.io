@@ -1,4 +1,4 @@
-document.addEventlistener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     
     const scanner = new Html5QrcodeScanner(
