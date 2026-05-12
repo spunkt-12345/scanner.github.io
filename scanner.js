@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     scanner.render(success)
     
     function success(decodeText, decodeResult) {
-        alert("!!!" + decodeText +":"+ decodeResult)
+        alert(">" + decodeText +":"+ decodeResult)
     }
 })
